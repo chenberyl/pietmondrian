@@ -1,0 +1,135 @@
+body {
+  background-color: powderblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#grid {
+  margin-top: 5vw;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4,1fr);
+}
+
+.white1 {
+  background-color: #F8F8F8;
+  width: 7vw;
+  height: 8vw;
+  grid-row-start: 1;
+  grid-column-start: 1;
+}
+
+.white2 {
+  background-color: #F8F8F8;
+  width: 7vw;
+  height: 10vw;
+  grid-row-start: 2;
+  grid-column-start: 1;
+}
+
+.white3 {
+  background-color: #F8F8F8;
+  width: 3vw;
+  height: 4vw;
+  margin-left: 4vw;
+  grid-row-start: 3;
+  grid-column-start: 4;
+}
+
+.white4 {
+  background-color: #F8F8F8;
+  width: 17vw;
+  height: 9vw;
+  grid-row-start: 3;
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+
+.black1 {
+  background-color: black;
+  width: 1vw;
+  height: 29vw;
+  grid-row-start: 1;
+  grid-row-end: 6;
+  grid-column-start: 2;
+}
+
+.black2 {
+  background-color: black;
+  width: 7vw;
+  height: 2vw;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  margin-top: 8vw;
+}
+
+.black3 {
+  background-color: black;
+  width: 28vw;
+  height: 1vw;
+  grid-row-start: 3;
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+
+.black4 {
+  background-color: black;
+  width: 1vw;
+  height: 8vw;
+  grid-row-start: 3;
+  grid-column-start: 4;
+  margin-left: 3vw;
+  margin-top: 1vw;
+}
+
+.black5 {
+  background-color: black;
+  width: 3vw;
+  height: 1.6vw;
+  margin-top: 3.7vw;
+  margin-left: 4vw;
+  grid-row-start: 3;
+  grid-column-start: 4;
+}
+
+.red {
+  background-color: red;
+  width: 20vw;
+  height: 20vw;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-end: 5;
+  grid-column-start: 2;
+  margin-left: 1vw;
+}
+
+.blue {
+  background-color: blue;
+  width: 7vw;
+  height: 8vw;
+  grid-row-start: 3;
+  grid-column-start: 1;
+  margin-top: 1vw;
+}
+
+.yellow {
+  background-color: yellow;
+  width: 3vw;
+  height: 4vw;
+  margin-top: 5vw;
+  margin-left: 4vw;
+  grid-row-start: 3;
+  grid-column-start: 4;
+}
+
+a {
+  color: black;
+  font-size: 1.5vw;
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row: 4;
+  margin-top: 3.5vw;
+}
